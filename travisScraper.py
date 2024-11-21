@@ -81,4 +81,4 @@ def send_noti(message):
 while True:
     if check_change(link):
         send_noti("Travis Site Change detected"+ " "+link)
-        time.sleep(1)
+        time.sleep(600)
