@@ -17,7 +17,7 @@ link = "https://shop.travisscott.com"
 
 def get_data(url):
     # Define the ChromeDriver path
-    chrome_driver_path = "/Users/joelcastro/Downloads/chromedriver"
+    chrome_driver_path = '/usr/lib/chromium-browser/chromedriver'
 
     # Set up the Service and Options
     service = Service(executable_path=chrome_driver_path)
